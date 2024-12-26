@@ -7,6 +7,34 @@
   --foreground: #171717;
 }
 
+.tooltip  .tooltiptext{
+  position: relative;
+  display: inline;
+  visibility: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgb(46, 46, 46);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: white;
+  border-radius: 5px;
+}
+
+.nunito {
+  font-family: 'Nunito', Courier, monospace;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
