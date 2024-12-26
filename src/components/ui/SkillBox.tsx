@@ -8,8 +8,24 @@ interface SkillIcon {
     end: string
 }
 
+interface colorVarient {
+    [key: string]: string,
+    blue: string,
+    green: string,
+    red: string,
+    yellow: string,
+    purple: string,
+    orange: string,
+    pink: string,
+    white: string,
+    zinc: string,
+    lightblue: string,
+    lightgray: string
+
+}
+
 const SkillBox: React.FC<SkillIcon> = ({text, icon, start, end}) => {
-    const colorVarientStart: any = {
+    const colorVarientStart: colorVarient = {
         "blue": "from-blue-400",
         "green": "from-green-400",
         "red": "from-red-400",
@@ -22,7 +38,7 @@ const SkillBox: React.FC<SkillIcon> = ({text, icon, start, end}) => {
         "white": "from-white",
         "lightgray": "from-gray-400"
     };
-    const colorVarientEnd: any = {
+    const colorVarientEnd: colorVarient = {
         "blue": "to-blue-600",
         "green": "to-green-600",
         "red": "to-red-600",
