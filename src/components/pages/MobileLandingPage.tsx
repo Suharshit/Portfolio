@@ -13,7 +13,7 @@ const MobileLandingPage = () => {
             <p>Passionate <b>Developer</b>, <b>Critical Thinker</b>, <b>Problem Solver</b></p>
         </div>
         <div className='mt-4'>
-            <Link href={''} className='px-10 py-3 bg-white text-black rounded-full'>CV</Link>
+            <Link href={'https://drive.google.com/file/d/1KDEn5KQTiwlLqUT52F_YFPXQvsAzgFYO/view?usp=sharing'} className='px-10 py-3 bg-white text-black rounded-full'>CV</Link>
         </div>
     </div>
   )

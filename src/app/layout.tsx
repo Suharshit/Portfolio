@@ -18,7 +18,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Suharshit Singh",
+  title: "Suharshit Singh | Full-Stack Developer",
   description: "This is Portfolio website",
 };
 

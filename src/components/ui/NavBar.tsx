@@ -10,7 +10,7 @@ const NavBar = () => {
           <div className='flex items-center justify-between w-full z-10 px-5'>
             <span className='flex items-center space-x-3'>
               <CopyButton textToCopy={"suharshit123@gmail.com"}/>
-              <Link href={""} className='px-4 py-2 bg-white text-black rounded-full'>Resume</Link>
+              <Link href={"https://drive.google.com/file/d/1KDEn5KQTiwlLqUT52F_YFPXQvsAzgFYO/view?usp=sharing"} className='px-4 py-2 bg-white text-black rounded-full'>Resume</Link>
             </span>
             {/* add social links */}
             <span className='space-x-2 flex'>

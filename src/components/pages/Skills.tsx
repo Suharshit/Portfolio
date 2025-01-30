@@ -8,6 +8,9 @@ import ExpressJsImg from "../../../public/express_logo-removebg-preview.png";
 import NodeJsImg from "../../../public/Node.js_logo.svg.png";
 import MongoDBImg from "../../../public/mongodb logo.png";
 import PythonImg from "../../../public/python_logo-removebg-preview.png";
+import TypeScriptImg from "../../../public/Typescript_logo-removebg-preview.png";
+import PrismaImg from "../../../public/prismaimage.png";
+import PostgresImg from "../../../public/postgresqlimage-removebg-preview.png";
 
 const Skills = () => {
     const HTML: string = HTMLimg.src;
@@ -19,6 +22,10 @@ const Skills = () => {
     const NodeJs: string = NodeJsImg.src;
     const MongoDB: string = MongoDBImg.src;
     const Python: string = PythonImg.src;
+    const TypeScript: string = TypeScriptImg.src;
+    const Prisma: string = PrismaImg.src;
+    const Postgres: string = PostgresImg.src;
+
   return (
     <div className='flex flex-col select-none'>
         <h1 className='nunito text-2xl font-bold mb-8 max-sm:text-center'>
@@ -34,6 +41,9 @@ const Skills = () => {
             <SkillBox text='Node js' icon={NodeJs} start='green' end='zinc'/>
             <SkillBox text='Mongo DB' icon={MongoDB} start='green' end='white'/>
             <SkillBox text='Python' icon={Python} start='blue' end='yellow'/>
+            <SkillBox text='TypeScript' icon={TypeScript} start='blue' end='white'/>
+            <SkillBox text='Prisma' icon={Prisma} start='bluegreen' end='lightgray'/>
+            <SkillBox text='Postgres' icon={Postgres} start='lightblue' end='gray'/>
         </div>
     </div>
   )

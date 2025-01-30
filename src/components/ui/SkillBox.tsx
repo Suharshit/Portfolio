@@ -36,7 +36,8 @@ const SkillBox: React.FC<SkillIcon> = ({text, icon, start, end}) => {
         "lightblue": "from-[#51a9fc]",
         "orange": "from-orange-400",
         "white": "from-white",
-        "lightgray": "from-gray-400"
+        "lightgray": "from-gray-200",
+        "bluegreen" : "from-[#133642]",
     };
     const colorVarientEnd: colorVarient = {
         "blue": "to-blue-600",
@@ -49,18 +50,19 @@ const SkillBox: React.FC<SkillIcon> = ({text, icon, start, end}) => {
         "lightblue": "to-[#51a9fc]",
         "orange" : "to-orange-600",
         "white": "to-white",
-        "lightgray": "to-gray-800"
+        "lightgray": "to-gray-600",
+        "bluegreen" : "to-[#133642]"
     }
   return (
-    <div className='sm:h-[160px] sm:w-[160px] sm:flex max-sm:h-[140px] max-sm:w-[150px]'>
+    <div className='sm:h-[150px] sm:w-[150px] sm:flex max-sm:h-[140px] max-sm:w-[150px]'>
         <div className={`h-full w-full bg-gradient-to-br ${colorVarientStart[start]} ${colorVarientEnd[end]} px-[2px] py-[2px] rounded-2xl`}>
             <div className='bg-black h-full w-full rounded-2xl flex flex-col items-center justify-center space-y-2'>
                 <Image
                     src={icon}
                     alt={text}
-                    width={250}
-                    height={250}
-                    className='h-auto w-[68px]'
+                    width={200}
+                    height={200}
+                    className='h-auto w-[55px]'
                 />
 
                 <h1 className='text-2xl nunito font-bold'>
